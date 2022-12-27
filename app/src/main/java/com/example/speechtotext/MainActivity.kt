@@ -1,6 +1,7 @@
 package com.example.speechtotext
 
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.speech.RecognizerIntent
@@ -17,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     var tv_speech_to_text:TextView?=null
     val REQUEST_CODE_SPEECH_INPUT = 1
 
+    @SuppressLint("SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
