@@ -56,5 +56,6 @@ class MainActivity : AppCompatActivity() {
     fun onBeginningOfSpeech() {
         tv_speech_to_text?.setText("Listening...")
     }
+
 }
 
